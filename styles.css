@@ -1,0 +1,135 @@
+.container{
+    display:flex;
+    gap:8%;
+    background-color:black;
+    margin:0;
+    height: 12vh;
+    align-content: center;
+    color :yellow;
+    
+}
+.logospell{
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 1.9%;
+}
+.sides{
+    display: flex;
+    margin-right: 0;
+    position: absolute;
+    right: 5%;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.navele{
+    margin-top:8%;
+}
+.gradient-background {
+    background: linear-gradient(300deg,  yellow,black);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.midpage{
+    height: 70vh;
+    margin: 0;
+}
+.startpage p {
+    margin: 0;
+    color: yellow;
+}
+.startpage {
+    background-color: black;
+    height: 90vh; /* Adjusts to 90% of the viewport height */
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center;
+    color: white; /* Ensures the text is readable against the blue background */
+    height: 70vh;
+}
+.startpage p {
+    margin: 0;
+    font-size: 2rem; /* Adjust font size if needed */
+}
+.itemcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    flex-direction: row;
+    padding: 5%;
+    justify-content: center;
+    background-color: black;
+}
+.item{
+    background-color: white;
+    height: 80vh;
+    width:30%;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+.itemdesc{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+}
+.itemname,.itemprice{
+    text-align: center;
+}
+.button{
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color:yellow;
+}
+body{
+    font-family: 'Helvetica','serif';
+}
+.ftext{
+    color:yellow;
+}
+.foot{
+    background-color: black;
+    margin-top: 0;
+    
+}
+.foot h4{
+    margin:0;
+    
+    padding:6%;
+}
+.flast{
+    margin-bottom:0;
+    padding-bottom: 5%;
+}
+.ftext{
+    padding-left:6%
+}
